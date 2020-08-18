@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" content="JonatanHN" />
+    <meta name="copyright" content=""/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:image" content="" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" 
+    href="">
+    <!-- Title -->
+    <title>Auth Vainilla JS</title>
+    <!-- Favicon -->
+    <link rel="icon" 
+    href="">
+    <!-- Icons -->
+
+    <!-- map -->
+
+    <!-- Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-firestore.js"></script>
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark">
+            <span class="navbar-brand" id="nombreUsuario">Chat</span>
+            <div id="botones"></div>
+        </nav>
+    </div>
+    <main id="contenidoWeb" class="mt-2 px-2" style="height: 80vh; overflow-y: scroll;"></main>
+        
+	<form class="input-group mb-3 fixed-bottom container d-none" id='formulario'>
+    <input type="text" class="form-control" placeholder="Ingrese mensaje" aria-label="Recipient's username" id="texto">
+    <div class="input-group-append">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+    </div>
+	</form>    
+    <!-- Scripts -->
+	<script src="app.js"></script>
+	<script src="more-script.js"></script>
+  </body>
+</html>
